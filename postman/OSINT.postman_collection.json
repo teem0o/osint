@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "c7f97fe8-5e65-4e19-853b-50ede21f3445",
+		"name": "OSINT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32460483"
+	},
+	"item": [
+		{
+			"name": "scan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/harvester/scan/example.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"harvester",
+						"scan",
+						"example.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getRecords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/harvester/records/example.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"harvester",
+						"records",
+						"example.com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
